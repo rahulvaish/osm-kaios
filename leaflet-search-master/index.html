@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div style="background-color:#F5F5F5">
+<iframe style="border-color:#778899 ; width:100%" id="myFrame" src="./html/mobile.html"></iframe>
+</div>
+
+<div style="width:100%">
+<p style="color:#888; font-family:verdana" >Navigate Earth!</p>
+
+<button style="background:#7092FF; border-color:#7092FF ; color:#FFFAF0" onclick="myFunction()">Globe View</button>
+</div>
+
+<script>
+function myFunction() {
+  document.getElementById("myFrame").src = "https://www.openstreetmap.org/export/embed.html?bbox=46.58203125000001%2C-2.5479878714713835%2C113.90625%2C44.902577996288876&amp;layer=mapnik";
+}
+</script>
+
+</body>
+</html>
