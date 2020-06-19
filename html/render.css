@@ -27,14 +27,8 @@ position: absolute;
 }
   
 .earthbutton{
-background:#7092FF;
-border-color:#7092FF;
-margin: 0;
 padding: 0;
-border-radius: 100%;
-width: 25px;
-height: 25px; 
-color:#FFFAF0;
-font-size:30px;
+border: none;
+background: none;
 outline: 0;
 }	
