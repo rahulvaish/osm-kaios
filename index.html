@@ -3,15 +3,19 @@
 <head>
 <link rel="stylesheet" href=".\html\render.css">
 <head>
-<body>
+<body style="background-color:#F5F5F5;">
 <?php include '.\html\search.php';?>
 
 <div class="container">
 <iframe style="border-color:#778899" id="myFrame" src="./html/mobile.html"  width="100%" height="100%"></iframe>
 </div>
-<div class="buttonarea">
-<p style="color:#888; font-family:verdana">Navigate Earth!</p>
-<button style="background:#7092FF; border-color:#7092FF ; color:#FFFAF0" onclick="myFunction()">Globe View</button>
+<div>
+	<div class="buttonarea">
+	<p style="color:#888; font-family:verdana">Navigate Earth with <b>OpenStreetMap</b>!</p>
+	</div>
+	<div>
+	<button style="background:#7092FF; border-color:#7092FF ; color:#FFFAF0" onclick="myFunction()">Globe View</button>
+	</div>
 </div>
 
 <script>
